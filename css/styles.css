@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg');
+    background-size: cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #0a5c30;
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cta-button {
+    background-color: #0a5c30;
+    color: white;
+    border: none;
+  }
+  
+  .cta-button:hover {
+    background-color: #085325;
+  }
+  
+  .footer {
+    background: #0a5c30;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
